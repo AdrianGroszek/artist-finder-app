@@ -1,0 +1,42 @@
+@import './variables';
+
+.history-box {
+	h3 {
+		color: $white-color;
+		font-weight: 400;
+		font-size: 1.6rem;
+	}
+
+	.search-history-list {
+		margin-top: 2rem;
+		width: 36rem;
+		overflow: scroll;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		.search-history-item {
+			display: flex;
+			align-items: center;
+			height: 6rem;
+			border-radius: 0.6rem;
+			background-color: $black-gradient;
+			cursor: pointer;
+
+			img {
+				margin: 0 1rem 0 2rem;
+				border-radius: 50px;
+			}
+
+			p {
+				font-size: 1.8rem;
+				color: $white-color;
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+@import './variables';
+
+.box {
+	display: flex;
+	align-items: center;
+	// justify-content: center;
+	flex-direction: column;
+	width: 40rem;
+	max-width: 40rem;
+	padding: 3rem 0;
+	border-radius: 0.8rem;
+	// background-color: $black-color;
+	box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+
+	.empty-field-text {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		font-size: 1.6rem;
+		color: $white-color;
+	}
+}

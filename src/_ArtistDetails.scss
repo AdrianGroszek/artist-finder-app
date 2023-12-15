@@ -1,0 +1,36 @@
+@import './variables';
+
+.artist-details-box {
+	padding: 0;
+	overflow: hidden;
+
+	& img {
+		width: 100%;
+		height: 10rem;
+		object-fit: cover;
+	}
+
+	& .artist-info-box {
+		margin: 2rem 0;
+		text-align: center;
+
+		& h3 {
+			font-size: 1.8rem;
+			color: $white-color;
+		}
+
+		& p {
+			font-size: 1.4rem;
+			color: $white-color-opacity;
+		}
+	}
+
+	& .artist-details-box {
+		color: $white-color;
+		font-size: 1.4rem;
+
+		& span {
+			font-weight: 700;
+		}
+	}
+}

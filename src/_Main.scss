@@ -1,0 +1,9 @@
+@import './variables';
+
+.main {
+	display: flex;
+	justify-content: center;
+	// margin-top: 5rem;
+	height: 85vh;
+	gap: 2rem;
+}
